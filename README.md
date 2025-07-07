@@ -29,11 +29,13 @@ Uses the [SMS Spam Collection Dataset](https://www.dt.fee.unicamp.br/~tiago/smss
 
 Load and clean the dataset
 
-Train a BERT model:
+## Train  model:
+
+Train the BERT model using the Hugging Face
 
 Save the model and tokenizer to saved_bert_model/
 
-PROJECT STRUCTURE:
+## PROJECT STRUCTURE:
 
 sms-spam-detector/
 
@@ -47,7 +49,7 @@ sms-spam-detector/
 
 
 
-🧪 Example Prediction
+## 🧪 Example Prediction
 
 Input:
 "Congratulations! You've won a free iPhone!"
@@ -56,7 +58,7 @@ Prediction:
 🛑 Spam
 
 
-📚 Technologies
+## 📚 Technologies Used 
 
 Transformers
 
