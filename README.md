@@ -36,10 +36,13 @@ Save the model and tokenizer to saved_bert_model/
 PROJECT STRUCTURE:
 
 sms-spam-detector/
+
 ├── SMSSpamCollection.txt         # Dataset
+
 ├── train_model.py                # Training script
+
 ├── app.py                        # Streamlit app
-├── eda.py                        # EDA visualization (optional)
+
 └── saved_bert_model/             # Saved model and tokenizer
 
 
