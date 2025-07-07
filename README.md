@@ -46,6 +46,16 @@ sms-spam-detector/
 └── saved_bert_model/             # Saved model and tokenizer
 
 
+
+🧪 Example Prediction
+
+Input:
+"Congratulations! You've won a free iPhone!"
+
+Prediction:
+🛑 Spam
+
+
 📚 Technologies
 
 Transformers
