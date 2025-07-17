@@ -147,6 +147,4 @@ model=DistilBertForSequenceClassification.from_pretrained(MODEL_NAME,num_labels=
 
 !zip -r saved_distilbert_model.zip saved_distilbert_model/
 
-model.save_pretrained("saved_distilbert_model")
-tokenizer.save_pretrained("saved_distilbert_model")
 
