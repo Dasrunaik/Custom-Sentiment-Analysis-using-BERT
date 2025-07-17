@@ -9,7 +9,8 @@ Original file is located at
 
 import pandas as pd
 
-df=messages=pd.read_csv('/content/SMSSpamCollection.txt',sep='\t',names=['label','message'])
+df = messages = pd.read_csv("C:/Users/DASRU NAYAK/Downloads/SMSSpamCollection.txt", sep='\t', names=['label', 'message'])
+
 
 df.head(10)
 
@@ -135,7 +136,7 @@ tokenizer.save_pretrained("saved_distilbert_model")
 
 """App Running"""
 
-pip install streamlit
+
 
 """Streamlit deployment"""
 
@@ -145,6 +146,7 @@ model=DistilBertForSequenceClassification.from_pretrained(MODEL_NAME,num_labels=
 
 """converting the saved_model to ZIP for future"""
 
-!zip -r saved_distilbert_model.zip saved_distilbert_model/
 
 
+model.save_pretrained("saved_distilbert_model")
+tokenizer.save_pretrained("saved_distilbert_model")
