@@ -41,7 +41,7 @@ sms-spam-detector/
 
 ├── SMSSpamCollection.txt         # Dataset
 
-├── train_model.py                # Training script
+├── train_model.py                # (huggingface)Training script
 
 ├── app.py                        # Streamlit app
 
