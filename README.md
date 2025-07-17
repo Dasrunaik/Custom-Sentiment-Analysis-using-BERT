@@ -60,6 +60,12 @@ Prediction:
 
 ## 📚 Technologies Used 
 
+Pandas
+
+Numpy
+
+Python
+
 Transformers
 
 BERT (Hugging Face)
